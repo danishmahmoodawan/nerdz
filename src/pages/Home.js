@@ -31,9 +31,12 @@ function Home() {
                       </div>
             </nav>
         </div>
-        <section>
+        <section class="sec_bg">
+        <div class="container bg-image_sec">
+        <h1>Join discord</h1>
+
+        </div>
           
-          <h1>Join discord</h1>
           </section>
 	</>
   );
