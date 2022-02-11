@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Turismocf-bold';
+    src: url('../fonts/TurismoCF-Bold.woff');
+}
+@font-face {
+    font-family: 'Turismocf-regular';
+    src: url('../fonts/TurismoCF-Regular.woff');
+}
+@font-face {
+    font-family: 'Turismocf-light';
+    src: url('../fonts/TurismoCF-light.woff');
+}
+@font-face {
+    font-family: 'TurismoCF-medium';
+    src: url('../fonts/TurismoCF-medium.woff');
+}
+@font-face {
+    font-family: 'TurismoCF-heavy';
+    src: url('../fonts/TurismoCF-Heavy.woff');
+}
+@font-face {
+    font-family: 'TurismoCF-demi-bold';
+    src: url('../fonts/TurismoCF-DemiBold.woff');
+}
+@font-face {
+    font-family: 'TurismoCF-ExtraBold';
+    src: url('../fonts/TurismoCF.woff');
+}
+body{
+    background: #545454;
+}
+h1{
+    font-family: 'TurismoCF-bold';
+    font-size: 80px;
+    color: #fff
+}
+.count_call h2{
+font-size: 24px;
+font-family: 'Bungee';
+color: #363636;
+margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1220px) and (min-width: 992px) {
+    
+}
+
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+
+}
+@media screen and (max-width: 1499px) and (min-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    
+}
+  @media only screen and (max-width: 767px) {
+}
+
+  
