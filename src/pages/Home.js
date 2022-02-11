@@ -31,9 +31,13 @@ function Home() {
                       </div>
             </nav>
         </div>
-        <section class="sec_bg">
-        <div class="container bg-image_sec">
-        <h1>Join Discord</h1>
+        <section class="sec_bg bg-image_sec">
+        <div class="container text-center">
+        <div class="row">
+        <div class="col-12 seting_row">
+        <button class="btn  button_nerd"  href="https://discord.gg/dDjBp8YF" target={{target:"_blank"}}>Join The Nerdz </button>
+      </div>
+      </div>
 
         </div>
           

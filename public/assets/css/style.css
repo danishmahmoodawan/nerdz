@@ -56,13 +56,24 @@ background: white;
 .set_pading{
 margin: 0 20px;
 }
+.seting_row{
+padding: 50px 10px;
+}
 .sec_bg{
-    background-color: #83bbff;
+    background: #83bbff;
+}
+.button_nerd{
+    font-family: 'LilitaOne-Regular';
+    font-size: 30px;
+     padding: 5px 32px;
+     border: 5px solid white;
+     color: #fff;
+     text-transform: uppercase;     
 }
 .bg-image_sec{
-    background: url('images/CompositeLayer.png') !important;
-    height: 600px;
-
+    background-image: url('images/CompositeLayer.png') !important;
+    background-size: cover; 
+    padding-bottom: 23%;
 }
 @media screen and (max-width: 1220px) and (min-width: 992px) {
     
