@@ -33,7 +33,7 @@ function Home() {
         </div>
         <section class="sec_bg">
         <div class="container bg-image_sec">
-        <h1>Join discord</h1>
+        <h1>Join Discord</h1>
 
         </div>
           
