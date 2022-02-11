@@ -30,22 +30,33 @@
     font-family: 'LilitaOne-Regular';
     src: url('../fonts/LilitaOne-Regular.ttf');
 }
-body{
-    background: #545454;
-}
+
 h1{
     font-family: 'TurismoCF-bold';
-    font-size: 80px;
+    font-size: 58px;
     color: #fff
+}
+.sec_two h1{
+    font-family: 'LilitaOne-Regular';
+    color: #83bbff;  
+    margin-top: 24%;
+    margin-bottom: 4%;
 }
 .count_call h2{
 font-size: 24px;
 font-family: 'Bungee';
 color: #363636;
 margin-bottom: 40px;
+
 }
 .bg-nav{
     background: #83bbff;
+}
+.col_set_{
+padding: 2% 10%;
+}
+.sec_two img{
+width: 100%;
 }
 .button_join{
 font-family: 'LilitaOne-Regular';
