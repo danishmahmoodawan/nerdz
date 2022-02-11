@@ -293,6 +293,37 @@ border: 10px solid #086788;
     
 }
   @media only screen and (max-width: 767px) {
+      body{
+          padding-top: 32%;
+      }
+      .bg-image_sec{
+          padding-bottom: 2%;
+      }
+      .col_set_::before, .cols_set_::before, .cols_set_::after{
+          display: none;
+      }
+      .sec_two h1{
+        margin-top: 10%;
+        font-size: 44px;
+      }
+      .set_head{
+        font-size: 44px;
+      }
+      .card-header{
+          padding: 0.25rem 0.25rem
+      }
+      .team_name{
+          padding-top: 3%;
+      }
+      .bubble{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+    .btn-link{
+     font-size: 16px;   
+    }
 }
 
   
