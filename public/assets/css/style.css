@@ -32,7 +32,7 @@
 }
 body, html{
     overflow-x: hidden;
-    padding-top: 4%;
+    padding-top: 2%;
 }
 .logo_s{
     width: 128px;
@@ -114,10 +114,13 @@ position: relative;
 
 }
 .seting_row{
-padding: 50px 10px;
+padding: 138px 10px 0px 10px;
 }
 .setings_row{
-    padding: 11% 0% 7% 0% !important;
+    padding: 4% 0% 7% 0% !important;
+}
+.setingss_row{
+    padding: 4% 0;
 }
 .sec_bg{
     background: #83bbff;
@@ -187,7 +190,7 @@ background: white;
 }
 .sec_faq{
     background-image: url('images/bf_faq2.png') !important;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -332,6 +335,7 @@ border: 10px solid #086788;
     z-index: -96;
     padding-top: 19%;
 }
+
 .roadmapHead{
 color: white;
 margin-top: 1%;
@@ -422,8 +426,22 @@ bottom: 180px;
   
     /* roadmap END*/
 
-@media screen and (max-width: 1220px) and (min-width: 992px) {
-    
+@media screen and (max-width: 1336px) and (min-width: 1024px) {
+    .bg-image_sec{
+        padding-bottom: 22%;
+    }
+    .sec_three{
+        top: -153px !important;
+    }
+    .roadmapHead{
+        padding-top: 17% !important;
+    }
+    .roadmapsecdes, .sec_five{
+     top: -296px !important; 
+    }
+    .sec_faq {
+margin-top: 0px !important; 
+    }
 }
 
 @media screen and (max-width: 1200px) and (min-width: 993px) {
@@ -437,15 +455,59 @@ bottom: 180px;
     .none_clas{
         display: none;
     }
+    h1{
+font-size: 30px;
+    }
+    br{
+        display: none;
+    }
+    p{
+        font-size: 12px;
+    }
+    .sec_three{
+        top: -17px;
+
+    }
+    .sec_five{
+        top: 10px;
+    }
+    .sec_faq{
+        background-size: contain;
+        margin-top: 25%;
+    }
     .roadmapsecdes{
-display: none;
+padding-top: 6%;
+top: 0;
     }
     .bg_rea{
         background: #83bbff;  
        }
+       .back_bl{
+           width: 90%;
+       }
+       .team_name {
+padding-top: 20px;
+       }
 }
 
   @media only screen and (max-width: 767px) {
+    .sec_faq{
+        background-size: contain;
+    }    
+    .back_bl {
+width: 100%;
+    }
+    
+    .seting_row{
+        padding: 80px 10px 50px 10px;
+    }
+    .button_nerd{
+        font-size: 20px;
+    padding: 3px 15px;
+    }
+    .bg-image_sec{
+        background-size: cover; 
+    }
     .roadmapsec{
 display: block;
     }

@@ -68,25 +68,25 @@ function Home() {
 </div>
 </div>
 <div className="row nerd_row text-center">
-<div className="col-sm-12 col-md-3">
+<div className="col-sm-12 col-md-6 col-lg-3">
 <div className="bg_se">
 <img src="assets/images/Rectangle99.png" alt="" /> </div>
 <span className="span_font">EDUCATION</span>
 
 </div>
-<div className="col-sm-12 col-md-3">
+<div className="col-sm-12 col-md-6 col-lg-3">
 <div className="bg_se">
 <img src="assets/images/Rectangle98.png" alt="" /> </div>
 <span className="span_font">GIVEAWAY</span>
 
 </div>
-<div className="col-sm-12 col-md-3">
+<div className="col-sm-12 col-md-6 col-lg-3">
 <div className="bg_se">
 <img src="assets/images/Rectangle97.png" alt="" /> </div>
 <span className="span_font">SUPPORT</span>
 
 </div>
-<div className="col-sm-12 col-md-3">
+<div className="col-sm-12 col-md-6 col-lg-3">
 <div className="bg_se">
 <img src="assets/images/Rectangle96.png" alt="" /> </div>
 <span className="span_font">WAY TO
@@ -201,7 +201,7 @@ THE METAVERSE</span>
         </div>
         </div>
         <div className="row">
-        <div className="col-sm-12 col-md-4 mt-2 mb-2"> 
+        <div className="col-sm-12 col-md-6 col-lg-4 mt-2 mb-2"> 
         <div className="mian_taem">
         <span class="post">Position</span>
         <img src="assets/images/white_img.png" alt="" /> 
@@ -210,7 +210,7 @@ THE METAVERSE</span>
         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</span>
         </div>
          </div>
-        <div className="col-sm-12 col-md-4 mt-2 mb-2">
+        <div className="col-sm-12 col-md-6 col-lg-4 mt-2 mb-2">
         <div className="mian_taem team_bg_s">
         <span class="post">Position</span>
         <img src="assets/images/white_img.png" alt="" /> 
@@ -219,7 +219,7 @@ THE METAVERSE</span>
         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</span>
         </div>
 </div>
-        <div className="col-sm-12 col-md-4 mt-2 mb-2"> <div className="mian_taem team_bg_r">
+        <div className="col-sm-12 col-md-6 col-lg-4 mt-2 mb-2"> <div className="mian_taem team_bg_r">
         <span class="post">Position</span>
         <img src="assets/images/white_img.png" alt="" /> 
         <h1 className="team_name"> John Doe </h1>
@@ -230,7 +230,7 @@ THE METAVERSE</span>
 
         </div>
         <div className="row pt-3 pb-3 row_team_set">
-        <div className="col-sm-12 col-md-4 mt-2 mb-2"> 
+        <div className="col-sm-12 col-md-6 col-lg-4 mt-2 mb-2"> 
         <div className="mian_taem team_bg_b">
         <span class="post">Position</span>
         <img src="assets/images/white_img.png" alt="" /> 
@@ -239,7 +239,7 @@ THE METAVERSE</span>
         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</span>
         </div>
          </div>
-        <div className="col-sm-12 col-md-4 mt-2 mb-2">
+        <div className="col-sm-12 col-md-6 col-lg-4 mt-2 mb-2">
         <div className="mian_taem team_bg_cv">
         <span class="post">Position</span>
         <img src="assets/images/white_img.png" alt="" /> 
@@ -248,7 +248,7 @@ THE METAVERSE</span>
         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</span>
         </div>
 </div>
-        <div className="col-sm-12 col-md-4 mt-2 mb-2"> <div className="mian_taem team_bg_tr">
+        <div className="col-sm-12 col-md-6 col-lg-4 mt-2 mb-2"> <div className="mian_taem team_bg_tr">
         <span class="post">Position</span>
         <img src="assets/images/white_img.png" alt="" /> 
         <h1 className="team_name"> John Doe </h1>
@@ -351,7 +351,7 @@ THE METAVERSE</span>
         </section>
 <section className="footer">
   <div class="container ">
-  <div class="row seting_row">
+  <div class="row setingss_row">
   <div className="col-12  text-center">
   <img className="seicon" src="assets/images/footer-logo.png"/>
 
