@@ -38,6 +38,9 @@ body, html{
     width: 128px;
     height: 100px;
 }
+.sec_two{
+    background-image: url('images/sectwo.png') !important;
+}
 h1{
     font-family: 'TurismoCF-bold';
     font-size: 58px;
@@ -45,7 +48,7 @@ h1{
 }
 .sec_two h1{
     font-family: 'LilitaOne-Regular';
-    color: #83bbff;  
+    color: white;  
     margin-top: 24%;
     margin-bottom: 4%;
 }
@@ -57,7 +60,7 @@ margin-bottom: 40px;
 
 }
 .roadmapsecdes{
-background: #00B9D1;
+background: #83bbff;
 padding-top: 19%;
 top: -335px;
     z-index: -96;
@@ -256,7 +259,7 @@ float: left:
   .sec_three{
       background: #febe62;
       position: relative;
-    top: -153px;
+    top: -170px;
   }
   .set_head{
     font-family: 'LilitaOne-Regular';
@@ -429,6 +432,9 @@ bottom: 180px;
 @media screen and (max-width: 1336px) and (min-width: 1024px) {
     .bg-image_sec{
         padding-bottom: 22%;
+    }
+    h1{
+        font-size: 50px !important;
     }
     .sec_three{
         top: -153px !important;
