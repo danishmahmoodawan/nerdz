@@ -83,6 +83,12 @@ margin: 0 20px;
     background: #fff;
     text-transform: uppercase;
 }
+.btn_nerds{
+    font-size: 18px !important;
+    border: 3px solid white !important;
+    padding: 5px 16px !important;
+
+}
 .seting_row{
 padding: 50px 10px;
 }
@@ -220,6 +226,9 @@ float: left:
 margin: 0 auto;
 text-align: center;
   }
+  .bg_se img:hover{
+    transform: scale(1.1);
+  }
   .bubble{
     overflow: hidden;
     /* border-radius: 20% 20% 20% 20%; */
@@ -278,6 +287,103 @@ border: 10px solid #086788;
     border-radius: 0 0 70px 70px;    /* 70 + 70 = 140px width */
     /* box-shadow: 0 0 0 4px red;    /* UNCOMMENT TO SEE THE TRICK */
   }
+  .roadmapsec{
+    background: #83bbff;
+    position: relative;
+    top: -185px;
+    z-index: -96;
+    padding-top: 19%;
+}
+.roadmapHead{
+color: white;
+margin-top: 1%;
+text-align: center;
+}
+.roadmapsec h5{
+    font-family: 'LilitaOne-Regular';
+color: white;
+}
+.ywll{
+    color: #ffe66a;
+}
+.sec_end{
+position: absolute;
+bottom: 0;
+}
+  /* roadmap START*/
+  circle {
+    padding: 13px 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #fff;
+    max-height: 50px;
+    z-index: 2;
+  }
+  
+  .how-it-works.row .col-2 {
+    align-self: stretch;
+  }
+  .how-it-works.row .col-2::after {
+    content: "";
+    position: absolute;
+    border-left: 3px solid #fff;
+    z-index: 1;
+  }
+  .how-it-works.row .col-2.bottom::after {
+    height: 50%;
+    left: 50%;
+    top: 50%;
+  }
+  .how-it-works.row .col-2.full::after {
+    height: 100%;
+    left: calc(50% - 3px);
+  }
+  .how-it-works.row .col-2.top::after {
+    height: 50%;
+    left: 50%;
+    top: 0;
+  }
+  
+  
+  .timeline div {
+    padding: 0;
+    height: 40px;
+  }
+  .timeline hr {
+    border-top: 3px solid #fff;
+    margin: 0;
+    top: 17px;
+    position: relative;
+  }
+  .timeline .col-2 {
+    display: flex;
+    overflow: hidden;
+  }
+  .timeline .corner {
+    border: 3px solid #fff;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+  }
+  .timeline .top-right {
+    left: 47%;
+    top: -50%;
+  }
+  .timeline .left-bottom {
+    left: -50%;
+    top: calc(50% - 3px);
+  }
+  .timeline .top-left {
+    left: -50%;
+    top: -50%;
+  }
+  .timeline .right-bottom {
+    left: 47%;
+    top: calc(50% - 3px);
+  }
+  
+    /* roadmap END*/
+
 @media screen and (max-width: 1220px) and (min-width: 992px) {
     
 }
@@ -290,9 +396,23 @@ border: 10px solid #086788;
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
-    
+    .none_clas{
+        display: none;
+    }
 }
   @media only screen and (max-width: 767px) {
+      .none_clas{
+          display: none;
+      }
+      .roadmapHead{
+          margin-top: 1%;
+      }
+      .btn_nerds{
+margin: 0 auto;
+      }
+      .roadmapsec{
+          position: inherit;
+      }
       body{
           padding-top: 32%;
       }
@@ -310,7 +430,7 @@ border: 10px solid #086788;
         font-size: 44px;
       }
       .card-header{
-          padding: 0.25rem 0.25rem
+          padding: 0.25rem 0.25rem;
       }
       .team_name{
           padding-top: 3%;

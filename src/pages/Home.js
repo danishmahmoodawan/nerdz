@@ -69,26 +69,26 @@ function Home() {
 </div>
 <div className="row nerd_row text-center">
 <div className="col-sm-12 col-md-3">
-<div className="bg_ser">
+<div className="bg_se">
 <img src="assets/images/Rectangle99.png" alt="" /> </div>
 <span className="span_font">EDUCATION</span>
 
 </div>
 <div className="col-sm-12 col-md-3">
-<div className="bg_ser">
-<img src="assets/images/Rectangle99.png" alt="" /> </div>
+<div className="bg_se">
+<img src="assets/images/Rectangle98.png" alt="" /> </div>
 <span className="span_font">GIVEAWAY</span>
 
 </div>
 <div className="col-sm-12 col-md-3">
-<div className="bg_ser">
-<img src="assets/images/Rectangle99.png" alt="" /> </div>
+<div className="bg_se">
+<img src="assets/images/Rectangle97.png" alt="" /> </div>
 <span className="span_font">SUPPORT</span>
 
 </div>
 <div className="col-sm-12 col-md-3">
-<div className="bg_ser">
-<img src="assets/images/Rectangle99.png" alt="" /> </div>
+<div className="bg_se">
+<img src="assets/images/Rectangle96.png" alt="" /> </div>
 <span className="span_font">WAY TO
 THE METAVERSE</span>
 
@@ -97,13 +97,91 @@ THE METAVERSE</span>
         </div> 
         </div>
 </section>    
+<section className="roadmapsec">
+<div className="roadmap_main">
+  <div className="container pb-5">
+  <div className="row mainmap">
+  <div className="col-lg-3 col-md-3 col-sm-12 none_clas">    <img src="assets/images/map1.png" alt="" />
+  <img class="sec_end" src="assets/images/map3.png" alt="" />
+</div>
+  <div className="col-lg-6 col-md-12 col-sm-12">
+    <h1 className="pb-3 pt-2 mb-5 headonese roadmapHead">ROAD MAP</h1>
+    <div className="row align-items-center how-it-works d-flex">
+      <div className="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+        <div className="circle font-weight-bold"><i class="fas fa-circle"></i></div>
+      </div>
+      <div className="col-8">
+        <h5>December 5th</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+      </div>
+    </div>
+    <div className="row timeline">
+      <div className="col-2">
+        <div className="corner top-right"></div>
+      </div>
+      <div className="col-8">
+        <hr/>
+      </div>
+      <div className="col-2">
+        <div className="corner left-bottom"></div>
+      </div>
+    </div>
+    <div className="row align-items-center justify-content-end how-it-works d-flex">
+      <div className="col-6 text-right">
+      
+        <h5>December 5th</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+      </div>
+      <div className="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+        <div className="circle font-weight-bold"><i class="fas fa-circle ywll"></i></div>
+      </div>
+    </div>
+    <div className="row timeline">
+      <div className="col-2">
+        <div className="corner right-bottom"></div>
+      </div>
+      <div className="col-8">
+        <hr/>
+      </div>
+      <div className="col-2">
+        <div className="corner top-left"></div>
+      </div>
+    </div>
+    <div className="row align-items-center how-it-works d-flex">
+      <div className="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+        <div className="circle font-weight-bold"><i class="fas fa-circle ywll"></i></div>
+      </div>
+      <div className="col-6">
+        <h5>December 5th</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+      </div>
+    </div>
+    <div className="row timeline"><div className="col-2"><div className="corner top-right"></div></div><div className="col-8"><hr />
+    </div><div className="col-2"><div className="corner left-bottom"></div></div></div>
+    <div className="row align-items-center justify-content-end how-it-works d-flex"><div className="col-6 text-right"><h5>December 5th</h5><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p></div><div className="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+    <div className="circle font-weight-bold"><i className="fas fa-circle ywll"></i></div></div></div>
+    <div className="row timeline"><div className="col-2"><div className="corner right-bottom"></div></div><div className="col-8"><hr />
+    </div><div className="col-2"><div className="corner top-left"></div></div></div>
+    <div className="row align-items-center how-it-works d-flex"><div className="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+    <div className="circle font-weight-bold"><i className="fas fa-circle ywll"></i></div></div><div className="col-6"><h5>December 5th</h5><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p></div></div>
+    <div className="btn_row row mt-3 mb-5">
+ <button className="btn  button_nerd btn_nerds"  href="https://discord.gg/dDjBp8YF" target={{target:"_blank"}}>Join The Nerdz </button>
+ </div> 
+  </div>
+  
+  <div className="col-lg-3 col-md-3 col-sm-12 none_clas my-auto">    <img src="assets/images/map2.png" alt="" />
+</div>
 
+</div>
+</div>
+</div>
+  </section>
 
           <section className="sec_five">
         <div className="container cols_set_">
         <div className="row">
         <div className="col-sm-12 margins_se">
-        <h1 class="headonese">TEAM</h1>
+        <h1 className="headonese">TEAM</h1>
         </div>
         </div>
         <div className="row">
