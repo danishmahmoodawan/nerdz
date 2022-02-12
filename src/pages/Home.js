@@ -96,7 +96,21 @@ THE METAVERSE</span>
 
         </div> 
         </div>
+
 </section>    
+<section className="roadmapsecdes">
+<div className="container">
+  <div className="row pb-5 ">
+ 
+  <div className="col-12">  
+  <h1 className="pb-3 pt-2 mb-5 headonese roadmapHead">ROAD MAP</h1>  <img src="assets/images/image-18.png" alt="" />
+  </div>
+  </div>
+  <div className=" row mt-3">
+ <button className="btn  button_nerd btn_nerds"  href="https://discord.gg/dDjBp8YF" target={{target:"_blank"}}>Join The Nerdz </button>
+ </div> 
+  </div>
+</section>
 <section className="roadmapsec">
 <div className="roadmap_main">
   <div className="container pb-5">
@@ -185,7 +199,7 @@ THE METAVERSE</span>
         </div>
         </div>
         <div className="row">
-        <div className="col-sm-12 col-md-4"> 
+        <div className="col-sm-12 col-md-4 mt-2 mb-2"> 
         <div className="mian_taem">
         <span class="post">Position</span>
         <img src="assets/images/white_img.png" alt="" /> 
@@ -194,7 +208,7 @@ THE METAVERSE</span>
         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</span>
         </div>
          </div>
-        <div className="col-sm-12 col-md-4">
+        <div className="col-sm-12 col-md-4 mt-2 mb-2">
         <div className="mian_taem team_bg_s">
         <span class="post">Position</span>
         <img src="assets/images/white_img.png" alt="" /> 
@@ -203,7 +217,7 @@ THE METAVERSE</span>
         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</span>
         </div>
 </div>
-        <div className="col-sm-12 col-md-4"> <div className="mian_taem team_bg_r">
+        <div className="col-sm-12 col-md-4 mt-2 mb-2"> <div className="mian_taem team_bg_r">
         <span class="post">Position</span>
         <img src="assets/images/white_img.png" alt="" /> 
         <h1 className="team_name"> John Doe </h1>
@@ -214,7 +228,7 @@ THE METAVERSE</span>
 
         </div>
         <div className="row pt-3 pb-3 row_team_set">
-        <div className="col-sm-12 col-md-4"> 
+        <div className="col-sm-12 col-md-4 mt-2 mb-2"> 
         <div className="mian_taem team_bg_b">
         <span class="post">Position</span>
         <img src="assets/images/white_img.png" alt="" /> 
@@ -223,7 +237,7 @@ THE METAVERSE</span>
         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</span>
         </div>
          </div>
-        <div className="col-sm-12 col-md-4">
+        <div className="col-sm-12 col-md-4 mt-2 mb-2">
         <div className="mian_taem team_bg_cv">
         <span class="post">Position</span>
         <img src="assets/images/white_img.png" alt="" /> 
@@ -232,7 +246,7 @@ THE METAVERSE</span>
         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</span>
         </div>
 </div>
-        <div className="col-sm-12 col-md-4"> <div className="mian_taem team_bg_tr">
+        <div className="col-sm-12 col-md-4 mt-2 mb-2"> <div className="mian_taem team_bg_tr">
         <span class="post">Position</span>
         <img src="assets/images/white_img.png" alt="" /> 
         <h1 className="team_name"> John Doe </h1>
@@ -327,7 +341,7 @@ THE METAVERSE</span>
          </div>
          <div class="row row text-center">
   <div className="col-12 setings_row pb-5">
-        <button className="btn  button_nerds"  href="https://discord.gg/dDjBp8YF" target={{target:"_blank"}}>Join The Nerdz </button>
+        <button className="btn  button_nerds"  href="https://discord.gg/dDjBp8YF" target={{target:"_blank"}}>Join discord </button>
       </div>
   </div>
         </div>
