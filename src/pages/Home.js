@@ -24,8 +24,8 @@ function Home() {
                             </a>
                         </li>
                         <li className="nav-item set_pading">
-                        <button className="btn btn-light button_join"  href="https://discord.gg/dDjBp8YF" target={{target:"_blank"}}>Join discord </button>
-                            
+                        <a className=" btn btn-light button_join" href="https://discord.com" target={{target:"_blank"}}>Join discord </a> 
+
                         </li>
                     </ul>
                       </div>
@@ -35,7 +35,9 @@ function Home() {
         <div className="container text-center">
         <div className="row">
         <div className="col-12 seting_row">
-        <button className="btn  button_nerd"  href="https://discord.gg/dDjBp8YF" target={{target:"_blank"}}>Join The Nerdz </button>
+        <div className="test_sec"></div>
+        <a className=" btn button_nerd" href="https://discord.com" target={{target:"_blank"}}>Join The Nerdz </a> 
+        <div className="test_secs"></div>
       </div>
       </div>
 
@@ -108,7 +110,7 @@ THE METAVERSE</span>
   </div>
   <div className=" row mt-3">
   <div className="col-12 text-center">
- <button className="btn  button_nerd btn_nerds"  href="https://discord.gg/dDjBp8YF" target={{target:"_blank"}}>Join The Nerdz </button>
+  <a className=" btn  button_nerd btn_nerds" href="https://discord.com" target={{target:"_blank"}}>Join The Nerdz</a> 
  </div>
  </div> 
   </div>
@@ -181,7 +183,7 @@ THE METAVERSE</span>
     <div className="row align-items-center how-it-works d-flex"><div className="col-2 text-center full d-inline-flex justify-content-center align-items-center">
     <div className="circle font-weight-bold"><i className="fas fa-circle ywll"></i></div></div><div className="col-6"><h5>December 5th</h5><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p></div></div>
     <div className="btn_row row mt-3 mb-5">
- <button className="btn  button_nerd btn_nerds"  href="https://discord.gg/dDjBp8YF" target={{target:"_blank"}}>Join The Nerdz </button>
+    <a className=" btn  button_nerd btn_nerds" href="https://discord.com" target={{target:"_blank"}}>Join The Nerdz</a> 
  </div> 
   </div>
   
@@ -343,7 +345,7 @@ THE METAVERSE</span>
          </div>
          <div class="row row text-center">
   <div className="col-12 setings_row pb-5">
-        <button className="btn  button_nerds"  href="https://discord.gg/dDjBp8YF" target={{target:"_blank"}}>Join discord </button>
+  <a className=" btn  button_nerds" href="https://discord.com" target={{target:"_blank"}}>Join discord </a> 
       </div>
   </div>
         </div>

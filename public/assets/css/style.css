@@ -59,11 +59,17 @@ color: #363636;
 margin-bottom: 40px;
 
 }
+.test_sec{
+height: 80px;
+}
+.roadmap_btn{
+    background: #83bbff;
+    z-index: 999;
+}
 .roadmapsecdes{
 background: #83bbff;
 padding-top: 19%;
 top: -335px;
-    z-index: -96;
     position: relative;
     padding-bottom: 10%;
 }
@@ -91,6 +97,16 @@ background: white;
 }
 .set_pading{
 margin: 0 20px;
+}
+
+.button_nerd{
+    font-family: 'LilitaOne-Regular';
+    font-size: 50px;
+     padding: 12px 32px;
+     border: 2px solid white;
+     color: #fff;
+     text-transform: uppercase;  
+     margin-bottom: 7%;   
 }
 .button_nerds{
     font-family: 'LilitaOne-Regular';
@@ -135,18 +151,12 @@ padding: 138px 10px 0px 10px;
 p{
     font-family: 'TurismoCF-Regular';
 }
-.button_nerd{
-    font-family: 'LilitaOne-Regular';
-    font-size: 30px;
-     padding: 5px 32px;
-     border: 2px solid white;
-     color: #fff;
-     text-transform: uppercase;     
-}
 .bg-image_sec{
-    background-image: url('images/CompositeLayer.png') !important;
-    background-size: cover; 
-    padding-bottom: 30%;
+    background-image: url(images/CompositeLayer.png) !important;
+    background-size: contain; 
+    padding-bottom: 23%;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 .col_set_::before {
     content: url('images/link.png');
@@ -260,6 +270,7 @@ float: left:
       background: #febe62;
       position: relative;
     top: -170px;
+    z-index: 9999;
   }
   .set_head{
     font-family: 'LilitaOne-Regular';
@@ -461,6 +472,9 @@ margin-top: 0px !important;
     .none_clas{
         display: none;
     }
+    .bg-image_sec{
+        /* background-size: cover; */
+    }
     h1{
 font-size: 30px;
     }
@@ -481,6 +495,7 @@ font-size: 30px;
         background-size: contain;
         margin-top: 25%;
     }
+    
     .roadmapsecdes{
 padding-top: 6%;
 top: 0;
@@ -503,16 +518,22 @@ padding-top: 20px;
     .back_bl {
 width: 100%;
     }
-    
+    .test_secs{
+height: 103px;
+    }
+    .sec_bg{
+        margin-top: -3px;
+            }
     .seting_row{
-        padding: 80px 10px 50px 10px;
+        padding: 30px 10px 0 10px;
     }
     .button_nerd{
         font-size: 20px;
     padding: 3px 15px;
     }
     .bg-image_sec{
-        background-size: cover; 
+        background-position: bottom;       
+         background-size: contain; 
     }
     .roadmapsec{
 display: block;
@@ -581,6 +602,9 @@ margin: 0 auto;
     }
     .btn-link{
      font-size: 16px;   
+    }
+    .test_sec{
+height: 42px;
     }
 }
 
