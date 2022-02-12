@@ -107,7 +107,9 @@ THE METAVERSE</span>
   </div>
   </div>
   <div className=" row mt-3">
+  <div className="col-12 text-center">
  <button className="btn  button_nerd btn_nerds"  href="https://discord.gg/dDjBp8YF" target={{target:"_blank"}}>Join The Nerdz </button>
+ </div>
  </div> 
   </div>
 </section>
