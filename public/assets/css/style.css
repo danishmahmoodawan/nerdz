@@ -59,9 +59,10 @@ color: #363636;
 margin-bottom: 40px;
 
 }
-.test_sec{
+.test_sec, .test_secs{
 height: 80px;
 }
+
 .roadmap_btn{
     background: #83bbff;
     z-index: 999;
@@ -106,7 +107,7 @@ margin: 0 20px;
      border: 2px solid white;
      color: #fff;
      text-transform: uppercase;  
-     margin-bottom: 7%;   
+     margin-bottom: 4%;   
 }
 .button_nerds{
     font-family: 'LilitaOne-Regular';
