@@ -270,7 +270,7 @@ float: left:
       background: #febe62;
       position: relative;
     top: -170px;
-    z-index: 9999;
+    z-index: 99;
   }
   .set_head{
     font-family: 'LilitaOne-Regular';
